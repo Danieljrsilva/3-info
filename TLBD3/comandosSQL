@@ -1,0 +1,36 @@
+INSERT-insere dados
+UPDATE SQL-atualiza os dados
+DELETE-deleta dados
+
+Comparação [ANY|SOME|ALL]-Os predicados ANY e SOME, sinônimos, são utilizados para recuperar registro na consulta principal que satisfaçam a comparação com qualquer registro da sub-consulta.
+
+O uso de != ALL equivale a NOT IN.
+exemplo-SELECT * FROM A WHERE Y != ALL (SELECT Y FROM B)
+
+O predicado IN é utilizado para recuperar apenas os registros na consulta principal que contém equivalência na sub-consulta. É o mesmo que =ANY.
+exeplo-SELECT * FROM A WHERE Y IN(SELECT Y FROM B)
+
+De maneira contrária, NOT IN pode ser utilizado para recuperar apenas os registros na consulta principal para os quais não exista equivalência na sub-consulta.
+exemplo-SELECT * FROM A WHERE Y NOT IN(SELECT Y FROM B)
+
+O predicado EXISTS determina se a sub-consulta retorna algum registro. Esta cláusula produz resultados semelhantes ao uso de IN.
+
+Alter Table-
+    Adicionar uma coluna
+    Remover uma coluna
+    Alterar o nome de uma coluna
+    Alterar o tipo de dados de uma coluna 
+
+Primeiro, queremos adicionar uma coluna denominada "Gender" a esta tabela. Para tal, introduzimos:
+ALTER TABLE Customer ADD Gender char(1);
+
+A seguir, queremos renomear "Address" para "Addr". Para tal, introduzimos:
+ALTER TABLE Customer CHANGE Address Addr char(50);
+
+Em seguida, queremos alterar o tipo de dados de "Addr" para char(30). Para tal, introduzimos:
+ALTER TABLE Customer MODIFY Addr char(30);
+
+Finalmente, queremos eliminar a coluna "Gender". Para tal, introduzimos:
+ALTER TABLE Customer DROP Gender;
+
+

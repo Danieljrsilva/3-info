@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">LiceuApp</string>
+    <string name="navigation_drawer_open">Abrir menu lateral</string>
+    <string name="navigation_drawer_close">Fechar menu lateral</string>
+    <string name="nav_header_title">LiceuApp</string>
+    <string name="nav_header_desc">Menu lateral</string>
+
+    <string name="menu_principal">Principal</string>
+    <string name="menu_cursos">Cursos</string>
+    <string name="menu_comunicados">Comunicados</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_opcoes">Opções</string>
+    <string name="menu_compartilhar">Compartilhar</string>
+    <string name="title_activity_cursos">Cursos</string>
+    <string name="title_activity_curso">CursoActivity</string>
+    <string name="text_cursos_textview">Selecione um curso para visualizar mais informações</string>
+
+    //dialogfragment
+    <string name="title_dialogcomunicados">Bem-vindo a tela Comunicados</string>
+    <string name="message_dialogcomunicados">O objetivo desta tela é exibir notícias/informações referentes a toda a escola (opção João Belarmino) ou a um curso específico (Administração, etc). No topo da tela há um menu de opções com o padrão João Belarmino, selecionado uma opção diferente, o conteúdo dos cards abaixo irão ser alterados referente a opção selecionada.</string>
+    <string name="title_dialogcursos">Bem-vindo a tela Cursos</string>
+    <string name="message_dialogcursos">Nesta tela há uma lista de cursos disponíveis na ETEC João Belarmino, ao selecionar algum curso, uma nova tela contendo informações deste curso irá ser exibida.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

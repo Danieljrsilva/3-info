@@ -1,0 +1,37 @@
+package newsalario;
+import javax.swing.JOptionPane;
+public class Principal {
+
+	public Principal() {
+		super();
+		
+	}
+
+	public static void main(String[] args) {
+		int op, dep = 0;
+		float sal = 0;
+		Imposto imp = new Imposto(sal, sal, sal, sal, sal, sal, sal, sal, sal, sal, dep);
+		do {//3
+			op = Integer.parseInt(JOptionPane.showInputDialog(null, "1-cadastrar salario\n2- calcular"
+																+ "\n3-listar\n0-sair", "Selecione: ", 1));
+			switch(op) {//4
+			case 1:
+				saldo = Float.parseFloat(JOptionPane.showInputDialog(null,"Digite seu salário bruto: "));
+				dep = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite a quantidade de dependetes: "));
+				imp.Cadastrar(sal, dep);
+				break;
+			case 2:
+				imp.Calc();
+				break;
+			case 3:	
+				imp.Listar();
+				break;
+			default:
+				
+				break;
+			}
+		}while(op!=0);
+
+	}
+
+}

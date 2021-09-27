@@ -1,0 +1,45 @@
+package aluno;
+
+import javax.swing.JOptionPane;
+
+public class Usando_recursos {
+
+	public static void main(String[] args) {
+	   int op,n1,n2,tot;
+	   	   
+		do {//3
+			op = Integer.parseInt(JOptionPane.showInputDialog(null, "1- soma\n2- subtração"+ "\n3- Divizão \n4- multiplicação\n0-sair", "Selecione: ", 1));
+																
+			switch(op) {//4
+			case 1:
+				n1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite um número para somar: "));
+				n2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o segundo número para somar: "));
+				tot = n1+n2;
+				JOptionPane.showMessageDialog(null,"Total da soma é: "+ tot);
+				break;
+			case 2:
+				n1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite um número para subtrair: "));
+				n2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o segundo número para subtrair: "));
+				tot = n1-n2;
+				JOptionPane.showMessageDialog(null,"Total da subtração é: "+ tot);
+				break;
+			case 3:	
+				n1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite um número para fazer a divizão: "));
+				n2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o segundo número para fazer a divizão: "));
+				tot = n1/n2;
+				JOptionPane.showMessageDialog(null,"Total da divizão é: "+ tot);
+				break;
+			case 4:	
+				n1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite um número para fazer a multiplicação: "));
+				n2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o segundo número para fazer a multiplicação: "));
+				tot = n1*n2;
+				JOptionPane.showMessageDialog(null,"Total da multiplicação é: "+ tot);
+				break;	
+			default:
+				
+				break;
+			}
+		}while(op!=0);
+	}
+
+}

@@ -1,0 +1,10 @@
+CRUD
+            DML       DDL
+CREATE      INSERT    CREATE
+READ        SELECT*     -
+UPDATE      UPDATE    ALTER
+DELETE      DELETE    DROP
+
+
+
+stackoverflow

@@ -1,0 +1,18 @@
+F:\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.dll.config
+F:\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.dll
+F:\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.pdb
+F:\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.csprojResolveAssemblyReference.cache
+F:\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.dll
+F:\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.pdb
+F:\3º INFO\DS\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.dll.config
+F:\3º INFO\DS\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.dll
+F:\3º INFO\DS\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.pdb
+F:\3º INFO\DS\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.csprojResolveAssemblyReference.cache
+F:\3º INFO\DS\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.dll
+F:\3º INFO\DS\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.pdb
+G:\3º INFO\DS\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.dll.config
+G:\3º INFO\DS\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.dll
+G:\3º INFO\DS\lojaInfoT2\infoT2.DAL\bin\Debug\infoT2.DAL.pdb
+G:\3º INFO\DS\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.csprojResolveAssemblyReference.cache
+G:\3º INFO\DS\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.dll
+G:\3º INFO\DS\lojaInfoT2\infoT2.DAL\obj\Debug\infoT2.DAL.pdb

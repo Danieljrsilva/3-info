@@ -1,0 +1,70 @@
+o que é sql?
+
+SQL é sigla inglesa de "Structured Query Language" 
+que significa, em Português Linguagem de Consulta 
+Estruturada,uma linguagem padrão de gerenciamento
+de dados que interage com os principais banco de 
+dados baseados no modelo relacional.
+
+Subgrupos SQL:
+
+.DDL -> Data Definicion Language ou Linguagem de definição
+de dados.
+
+	Comandos -> CREATE -> cRIA UM BANCO DE DADOS,TABELA OU COLUNA.
+
+	   	    DROP -> Remove um objeto do banco de dados.
+
+	   	    ALTER -> Altera a estrutura do banco de dados.
+
+	   	    TRUNCATE -> Remove todos os registros de um tabela
+           	    incluindo todos espaços alocados de um registro,limpa uma tabela.
+
+	    	    COMMNET -> Adiciona um comentario ao dicionario do banco de dados.
+
+	    	    RENAME -> Renomeia um objeto do banco de dados.
+
+.DQL -> Data Query Language ou Linguagem de consulta de dados.
+	
+	Comandos -> SELECT -> Recupera dados no banco de dados.
+		    parametros -> order BY ASC e DESC
+		    WHERE =
+		    WHERE != ou <>
+		    LIKE
+		    BETWEEN
+		    AND -> &&
+		    OR -> ||
+		    IN
+
+.DML -> Data Manipulation Language ou Linguagem de manipulção de dados.
+    	
+	Comandos -> INSERT -> Insere dados em uma tabela.
+
+	            UPDATE -> Atualiza os dados em uma tabela.
+
+		    DELETE -> Exclui um registro de uma tabela.
+
+		    CALL -> Chama um sub programa PLSQL -> Linguagem por tràs de uma banco
+		    de dados Oracle.
+
+		    EXPLAIN PLAN -> Explica o caminho de acesso os dados.
+
+		    LOCK TABLE -> Controle de concorrencia.
+
+.DCL - > Data Control Language ou Linguagem de Controle de dados.
+	 
+	 Comandos -> GRANT -> Atribui previlegios de acesso do usuario a objetos no banco de 
+			      dados.
+
+		     REVOKE ->Remove previlegios de acesso do usuario a objetos no banco de 
+			      dados.
+
+.DTL ou TCL -> Data Transtion Language TCL -> Transtion Control Language ou Linguagem de
+ transação de dados
+
+	       Comandos -> COMMINT -> Salva o trabalho feito.
+
+			   SAVEPOINT -> Identifica um ponto em uma transação para mais tarde
+					vc fazer um rollback.
+			   ROLLBACK -> Restaura um banco de dados ao original desde o ultimo
+					COMMINT.

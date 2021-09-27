@@ -1,0 +1,100 @@
+import javax.swing.JOptionPane;
+
+public class Percurso {
+	private float kmini,kmfim,vlrlitro,qtlitro,vlrpedag;
+	private int qtpedag;
+	public Percurso() {
+		this(0f, 0f, 0f, 0f, 0f, (int) 0f);
+	}
+
+	public Percurso(float kmini, float kmfim, float vlrlitro, float qtlitro, float vlrpedag, int qtpedag) {
+		this.kmini = kmini;
+		this.kmfim = kmfim;
+		this.vlrlitro = vlrlitro;
+		this.qtlitro = qtlitro;
+		this.vlrpedag = vlrpedag;
+		this.qtpedag = qtpedag;
+	}
+
+	public float getKmini() {
+		return kmini;
+	}
+
+	public void setKmini(float kmini) {
+		this.kmini = kmini;
+	}
+
+	public float getKmfim() {
+		return kmfim;
+	}
+
+	public void setKmfim(float kmfim) {
+		this.kmfim = kmfim;
+	}
+
+	public float getVlrlitro() {
+		return vlrlitro;
+	}
+
+	public void setVlrlitro(float vlrlitro) {
+		this.vlrlitro = vlrlitro;
+	}
+
+	public float getQtlitro() {
+		return qtlitro;
+	}
+
+	public void setQtlitro(float qtlitro) {
+		this.qtlitro = qtlitro;
+	}
+
+	public float getVlrpedag() {
+		return vlrpedag;
+	}
+
+	public void setVlrpedag(float vlrpedag) {
+		this.vlrpedag = vlrpedag;
+	}
+
+	public float getQtpedag() {
+		return qtpedag;
+	}
+
+	public void setQtpedag(int qtpedag) {
+		this.qtpedag = qtpedag;
+	}
+
+	public void cadastrar() {
+		this.setKmini(Float.parseFloat(
+				JOptionPane.showInputDialog(null,
+						"digite o valor da Kilometragem inicial")));
+		this.setKmfim(Float.parseFloat(
+				JOptionPane.showInputDialog(null,
+						"digite o valor da kilometragem final")));
+		this.setVlrlitro(Float.parseFloat(
+				JOptionPane.showInputDialog(null,
+						"digite o valor de litros de gasolina")));
+		this.setQtlitro(Float.parseFloat(
+				JOptionPane.showInputDialog(null,
+						"digite a quantidade de litros")));
+		this.setVlrpedag(Float.parseFloat(
+				JOptionPane.showInputDialog(null,
+						"digite o valor do pedagio")));
+		this.setQtpedag(Integer.parseInt(
+				JOptionPane.showInputDialog(null,
+						"digite a quantidade de pedagios")));
+		
+	}
+
+	public void listar() {
+		JOptionPane.showMessageDialog(null,
+				"\nkm inicial: " + this.getKmini() +
+				"\nKm final: " + this.getKmfim() +
+				"\nValor de litros: " + this.getVlrlitro() +
+				"\nQuantidade de Litros: " + this.getQtlitro() +
+				"\nValor do pedagio: " + this.getVlrpedag() +
+				"\nQuantidade de pedagios: " + this.getQtpedag());		
+	}
+	
+	
+}

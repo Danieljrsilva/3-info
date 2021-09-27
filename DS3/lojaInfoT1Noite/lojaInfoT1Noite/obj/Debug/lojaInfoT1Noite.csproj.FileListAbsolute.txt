@@ -1,0 +1,27 @@
+D:\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\lojaInfoT1Noite.exe.config
+D:\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\lojaInfoT1Noite.exe
+D:\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\lojaInfoT1Noite.pdb
+D:\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmPrincipal.resources
+D:\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.Properties.Resources.resources
+D:\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.csproj.GenerateResource.Cache
+D:\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.exe
+D:\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.pdb
+D:\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\info.DAL.dll
+D:\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\info.DAL.pdb
+D:\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.csprojResolveAssemblyReference.cache
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\lojaInfoT1Noite.exe.config
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\lojaInfoT1Noite.exe
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\lojaInfoT1Noite.pdb
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\info.DAL.dll
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\bin\Debug\info.DAL.pdb
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.csprojResolveAssemblyReference.cache
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmCategoria.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmPessoaFisica.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmPrincipal.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmProdutos.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmProdutosPorCategoria.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.frmVendas.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.Properties.Resources.resources
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.csproj.GenerateResource.Cache
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.exe
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\lojaInfoT1Noite\obj\Debug\lojaInfoT1Noite.pdb

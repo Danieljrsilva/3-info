@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <!-- MainActivity -->
+    <string name="num1">Digite o 1° número</string>
+    <string name="num2">Digite o 2° número</string>
+
+    <string name="erroNullNum">É necessário preeencher este campo!</string>
+
+</resources>

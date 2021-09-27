@@ -1,0 +1,24 @@
+Hacher          -            Cracker            |           PAra fidelizar a opinião publica
+Age p/ garantir             Rouba informação    |           foi criado o termo e a informação
+a segurança                 e/ou manipula a inf |           oficial do hacker Ético
+						|
+						|
+-----------------------------------------------------------------------------------------------------
+Cracker -> lança mão de recursos com spam ming,hoaxes,spyware,cookies,sniffers
+
+Esses tem o objetivo de: manipular:
+				->Dados ->Entrada->Subtrair dados
+					->Saida->Alterar Dados
+				->SW
+				->Manipulação Informatica
+                                ->Foco nas transações bancarias
+			Falsificar:
+				->Como Objetivo -> ALterar SW
+				->COmo Instrumento -> Manipula impressão de dados
+----------------------------------------------------------------------------------------------------------------------------------
+Sabotagem INformatica -> Sabotar                 |Crimes Informaticos realizados através do camputador
+		      -> Suprimir		 |->Espionagem Industriual   |->Pesca de senhas      |->Jogos de azar
+		      -> Alterar                 |->Sabotagem de Sistemas    |->Estratagemas         |->Fraude/oferta 
+						 |->Vandalismo de dados      |->Pornografia infantil |->lavagem d Dinheiro
+--------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,34 @@
+package aluno;
+
+import javax.swing.JOptionPane;
+
+public class Usando_recursos {
+
+	public static void main(String[] args) {
+	   int op,n1,n2,n3,tot;
+	   
+	   
+	   
+	   
+		do {//3
+			op = Integer.parseInt(JOptionPane.showInputDialog(null, "1- soma\n2- subtração"
+																+ "\n3- Divizão\n0-sair", "Selecione: ", 1));
+			switch(op) {//4
+			case 1:
+				n1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o valor do primeiro numero: "));
+				tot = n1+n1;
+				break;
+			case 2:
+				n2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o valor do segundo numero: "));
+				break;
+			case 3:	
+				n3 = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o valor do terceiro numero: "));
+				break;
+			default:
+				
+				break;
+			}
+		}while(op!=0);
+	}
+
+}

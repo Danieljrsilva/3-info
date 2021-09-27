@@ -1,0 +1,29 @@
+package livrariapoli;
+
+public class Livro extends Produto {
+	private String autor;
+	private String editora;
+	private String edicao;
+
+	public Livro() {
+		
+	}
+
+	public Livro(String descricao, String genero, int estoque, float custo, float venda) {
+		super(descricao, genero, estoque, custo, venda);
+		
+	}
+
+	@Override
+	public void Listar() {
+		
+
+	}
+
+	@Override
+	public void Calcular() {
+		
+
+	}
+
+}

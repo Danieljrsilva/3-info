@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_info_T2_NOITE" Class="MeuBDNoCSharpDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=db_info_T2_NOITE;Integrated Security=True" SettingsObjectName="infoT2.DAL.Properties.Settings" SettingsPropertyName="db_info_T2_NOITEConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_categoria" Member="tblCategorias">
+    <Type Name="tblCategoria">
+      <Column Name="id_Categoria" Member="CodigoCategoria" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="descri_Categoria" Member="NomeCategoria" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblCategoria_tblProduto" Member="tblProdutos" ThisKey="CodigoCategoria" OtherKey="FKCodigoCategoria" Type="tblProduto" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_Produto" Member="tblProdutos">
+    <Type Name="tblProduto">
+      <Column Name="id_Produto" Member="CodigoProduto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="descri_Produto" Member="NomeProduto" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="valor" Member="ValorProduto" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="id_Categoria" Member="FKCodigoCategoria" Storage="_CodigoCategoria" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tblCategoria_tblProduto" Member="tblCategoria" ThisKey="FKCodigoCategoria" OtherKey="CodigoCategoria" Type="tblCategoria" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

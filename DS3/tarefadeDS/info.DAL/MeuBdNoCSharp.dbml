@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_info" Class="MeuBdNoCSharpDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=db_info;Integrated Security=True" SettingsObjectName="tarefadeDS.Properties.Settings" SettingsPropertyName="db_infoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_categoria" Member="tb_categorias">
+    <Type Name="tb_categoria">
+      <Column Name="ID_categoria" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ds_categoria" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Association Name="tb_categoria_tb_produto" Member="tb_produtos" ThisKey="ID_categoria" OtherKey="id_categoria" Type="tb_produto" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_produto" Member="tb_produtos">
+    <Type Name="tb_produto">
+      <Column Name="Id_produto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ds_produto" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="valor" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="id_categoria" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tb_categoria_tb_produto" Member="tb_categoria" ThisKey="id_categoria" OtherKey="ID_categoria" Type="tb_categoria" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

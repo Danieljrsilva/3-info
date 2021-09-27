@@ -1,0 +1,9 @@
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\bin\Debug\tarefadeDS.exe.config
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\bin\Debug\tarefadeDS.exe
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\bin\Debug\tarefadeDS.pdb
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\obj\Debug\tarefadeDS.csprojResolveAssemblyReference.cache
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\obj\Debug\tarefadeDS.form1.resources
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\obj\Debug\tarefadeDS.Properties.Resources.resources
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\obj\Debug\tarefadeDS.csproj.GenerateResource.Cache
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\obj\Debug\tarefadeDS.exe
+c:\users\etec\documents\visual studio 2015\Projects\tarefadeDS\tarefadeDS\obj\Debug\tarefadeDS.pdb

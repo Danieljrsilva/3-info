@@ -1,0 +1,44 @@
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe.config
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.pdb
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csprojResolveAssemblyReference.cache
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmPrincipal.resources
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.Properties.Resources.resources
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csproj.GenerateResource.Cache
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.exe
+c:\users\lab2-12\documents\visual studio 2015\Projects\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.pdb
+D:\bk_bds_aula\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe.config
+D:\bk_bds_aula\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.exe
+D:\bk_bds_aula\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.pdb
+F:\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe.config
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.exe
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.pdb
+F:\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe
+F:\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.pdb
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csprojResolveAssemblyReference.cache
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmPrincipal.resources
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.Properties.Resources.resources
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csproj.GenerateResource.Cache
+F:\lojaInfoT2\lojaInfoT2\bin\Debug\infoT2.DAL.dll
+F:\lojaInfoT2\lojaInfoT2\bin\Debug\infoT2.DAL.pdb
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmCategoria.resources
+F:\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmProdutos.resources
+F:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csprojResolveAssemblyReference.cache
+F:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmCategoria.resources
+F:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmPrincipal.resources
+F:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmProdutos.resources
+F:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.Properties.Resources.resources
+F:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csproj.GenerateResource.Cache
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe.config
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csprojResolveAssemblyReference.cache
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmCategoria.resources
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmPrincipal.resources
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.frmProdutos.resources
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.Properties.Resources.resources
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.csproj.GenerateResource.Cache
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.exe
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\bin\Debug\lojaInfoT2.pdb
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\bin\Debug\infoT2.DAL.dll
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\bin\Debug\infoT2.DAL.pdb
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.exe
+G:\3º INFO\DS\lojaInfoT2\lojaInfoT2\obj\Debug\lojaInfoT2.pdb

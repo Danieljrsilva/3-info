@@ -1,0 +1,56 @@
+import javax.swing.JOptionPane;
+
+public class Custos {
+	private float totpercurso,totcomb,consumo,total;
+	private int totpedag;
+	public Custos() {
+		
+	}
+	public Custos(float totpercurso, float totcomb, float total, int totpedag) {
+		this.totpercurso = totpercurso;
+		this.totcomb = totcomb;
+		this.total = total;
+		this.totpedag = totpedag;
+	}
+	public float getTotpercurso() {
+		return totpercurso;
+	}
+	public void setTotpercurso(float totpercurso) {
+		this.totpercurso = totpercurso;
+	}
+	public float getTotcomb() {
+		return totcomb;
+	}
+	public void setTotcomb(float totcomb) {
+		this.totcomb = totcomb;
+	}
+	public float getTotal() {
+		return total;
+	}
+	public void setTotal(float total) {
+		this.total = total;
+	}
+	public int getTotpedag() {
+		return totpedag;
+	}
+	public void setTotpedag(int totpedag) {
+		this.totpedag = totpedag;
+	}
+	public float getConsumo() {
+		return consumo;
+	}
+	public void setConsumo(float consumo) {
+		this.consumo = consumo;
+	}
+	public void calcular(Percurso perc) {
+		this.setTotal(getTotpercurso () + getTotcomb () + getTotpedag () + getConsumo ());
+		JOptionPane.showMessageDialog(null,
+				"\ntotal: " + this.getTotal() +
+				"\ntotal: " + this.getConsumo() +
+				"\ntotal: " + this.getTotcomb() +
+				"\ntotal: " + this.getTotpedag() +
+				"\ntotal: " + this.getTotpercurso());
+		
+	}
+		
+}

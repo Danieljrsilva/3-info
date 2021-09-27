@@ -1,0 +1,11 @@
+D:\lojaInfoT1Noite\info.DAL\bin\Debug\info.DAL.dll.config
+D:\lojaInfoT1Noite\info.DAL\bin\Debug\info.DAL.dll
+D:\lojaInfoT1Noite\info.DAL\bin\Debug\info.DAL.pdb
+D:\lojaInfoT1Noite\info.DAL\obj\Debug\info.DAL.csprojResolveAssemblyReference.cache
+D:\lojaInfoT1Noite\info.DAL\obj\Debug\info.DAL.dll
+D:\lojaInfoT1Noite\info.DAL\obj\Debug\info.DAL.pdb
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\info.DAL\bin\Debug\info.DAL.dll.config
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\info.DAL\bin\Debug\info.DAL.dll
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\info.DAL\bin\Debug\info.DAL.pdb
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\info.DAL\obj\Debug\info.DAL.dll
+C:\Users\lab2-12\Documents\Visual Studio 2015\Projects\lojaInfoT1Noite\info.DAL\obj\Debug\info.DAL.pdb

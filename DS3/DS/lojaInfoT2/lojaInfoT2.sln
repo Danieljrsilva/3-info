@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lojaInfoT2", "lojaInfoT2\lojaInfoT2.csproj", "{AB18CDEF-4F29-4B0D-9D2F-2B6EF16E8026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infoT2.DAL", "infoT2.DAL\infoT2.DAL.csproj", "{B48D0A8E-202A-4894-9F2C-CE320F321A31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB18CDEF-4F29-4B0D-9D2F-2B6EF16E8026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB18CDEF-4F29-4B0D-9D2F-2B6EF16E8026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB18CDEF-4F29-4B0D-9D2F-2B6EF16E8026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB18CDEF-4F29-4B0D-9D2F-2B6EF16E8026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48D0A8E-202A-4894-9F2C-CE320F321A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48D0A8E-202A-4894-9F2C-CE320F321A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48D0A8E-202A-4894-9F2C-CE320F321A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48D0A8E-202A-4894-9F2C-CE320F321A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

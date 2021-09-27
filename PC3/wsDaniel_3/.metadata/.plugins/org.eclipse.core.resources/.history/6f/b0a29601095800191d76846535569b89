@@ -1,0 +1,22 @@
+package array_;
+import javax.swing.JOptionPane;
+
+public class Array {//1
+
+	public static void main(String[] args) {//2
+		int qt;
+		qt = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a qtde de alunos: "));
+		
+		String nome[] = new String[3];
+		String mostrar = "";
+		int i;
+		for (i = 0; i < 3; i++) {//3
+			nome[i] = JOptionPane.showInputDialog(null, "Digite o nome");
+			mostrar += "\naluno " + (i+1) + ": " + nome[i];
+			
+		}//3
+		JOptionPane.showMessageDialog(null, mostrar , "lista de alunos " , 1);
+		
+	}//2	
+
+}//1

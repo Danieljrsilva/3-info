@@ -1,0 +1,126 @@
+==================================================== PADROES DE REDES ==================================================================
+
+
+ETHERNET:
+
+Ethernet é uma arquitetura de interconexão para redes locais - Rede de Área Local (LAN) - baseada no envio de pacotes.
+Ela define cabeamento e sinais elétricos para a camada física, em formato de pacotes e protocolos para a subcamada de
+controle de acesso ao meio (Media Access Control - MAC) do modelo OSI.[1] A Ethernet foi padronizada pelo IEEE como 
+802.3. A partir dos anos 90, ela vem sendo a tecnologia de LAN mais amplamente utilizada e tem tomado grande parte do 
+espaço de outros padrões de rede como Token Ring, FDDI e ARCNET.[1]
+
+ETHERNET FAST:
+
+Em 1995 foi finalizado o padrão Fast Ethernet (802.3u), que multiplicou por 10 a velocidade de transmissão, atingindo 100 megabits. 
+O Fast Ethernet é composto por três padrões distintos:
+O mais usado é o 100BASE-TX, que é o padrão para cabos de par trançado categoria 5, utilizado em mais de 80% das instalações atuais. 
+No 100BASE-TX foi mantida a distância máxima de 100 metros, mas foi adicionado o suporte ao modo-full duplex, onde as estações podem 
+enviar e receber dados simultaneamente (100 megabits em cada direção), desde que seja usado um switch.
+Como os cabos categoria 5 atendem a especificação com folga, foi possível fazer tudo usando apenas dois dos quatro pares de cabos 
+(os pares laranja e verde), sendo um par usado para enviar e o outro para receber.
+É justamente devido ao uso de apenas dois dos pares de cabos que algumas placas de rede 10/100 possuem apenas 4 contatos, 
+eliminando os que não são usados no 100BASE-TX, como você pode ver nessa placa da Encore:
+Como você pode imaginar, é possível usar os 4 pares do cabo para crimpar dois cabos separados, cada um com dois pares. 
+Isso não é previsto no padrão e não é recomendável, mas não deixa de ser uma curiosidade. Para isso, você usaria o par 
+laranja nos pinos 1 e 2 e o verde nos pinos 3 e 6 do primeiro cabo, com o par azul nos pinos 1 e 2 e o par marrom nos pinos 
+3 e 6 do segundo cabo. O uso de duas transmissões separadas vai gerar interferência, reduzindo o alcance da transmissão, 
+de forma que isso só funciona em cabos relativamente curtos. Além disso, o cabo deixa de ser utilizável em redes gigabit 
+(veja detalhes a seguir), de forma que a economia não justifica as desvantagens.
+Existe uma idéia bastante enraizada no meio técnico de que redes de 10 megabits exigem cabos de 10 MHz, redes de 100 megabits 
+exigem cabos de 100 MHz e assim por diante. Esta é uma explicação simples e aparentemente lógica, mas que é incorreta. 
+Pense que se as coisas funcionassem assim, precisaríamos de cabos de 1000 MHz para as redes gigabit e de 10.000 MHz para as 
+redes 10G, o que seria impossível com tecnologia atual.
+Para evitar isso, os padrões Ethernet de 100, 1000 e 10000 megabits utilizam sistemas complicados de modulação, de forma a 
+reduzir a freqüência efetiva da transmissão e, assim, aproveitar melhor os recursos do cabo. Um paralelo poderia ser traçado 
+com relação ao ADSL, que consegue transmitir dados a longas distâncias e a até 8 megabits, utilizando um único par de cabo 
+telefônico, originalmente projetado para transportar apenas o sinal de voz.
+Na realidade, o padrão 100BASE-TX utiliza uma freqüência efetiva de apenas 31.25 MHz. Como se não bastasse, o 1000BASE-T 
+(o padrão de 1000 megabits para cabos de par trançado) conseguiu multiplicar por 10 a taxa de transmissão, aumentando a 
+freqüência para apenas 62.5 MHz efetivos. É por isso que ambos os padrões suportam cabos de par trançado categoria 5, 
+que são certificados para freqüências de apenas 100 MHz.
+Se você achou pouco, saiba que os cabos de categoria 6 (certificados para até 250 MHz) oferecem suporte também ao 10GBASE-T, 
+que é o padrão de 10.000 megabits. Se você era adepto do mito dos 100 MHz, isso deve ter dado um nó na sua cabeça. 
+Vamos então entender como estes aparentes milagres foram obtidos.
+Em primeiro lugar, um padrão de rede de 100 megabits não transmite apenas 100 megabits por segundo, pois junto com os dados 
+é necessário transmitir o conjunto de informações de controle que possibilita a conexão. Para transmitir 100 megabits de dados 
+úteis, a placa precisa transmitir um pouco mais do que isso.
+No 100BASE-TX é usada uma sinalização de 125 megabauds, utilizando o sistema 4B/5B, onde cada grupo de 4 bits é transmitido 
+usando um grupo de 5 bauds, cada um deles enviando um bit zero ou um.
+Como bem sabemos, 5 bits correspondem a 32 combinações, o que permite enviar os 4 bits (16 combinações) e mais um bit adicional, 
+usado para transmitir informações de controle e de redundância, que garantem a confiabilidade da conexão. Com isso, 
+os 125 milhões de bauds resultam na transmissão de 100 megabits de dados “úteis”.
+Como a construção dos frames Ethernet e dos pacotes TCP/IP exigem o uso de mais alguns bits adicionais (veja mais detalhes no capítulo 4), 
+os 100 megabits transmitidos pela placa de rede resultam em taxas efetivas de transmissão progressivamente menores a cada camada, 
+fazendo com que, a taxa de transferência “real” da rede (ao transferir um arquivo, por exemplo) acabe sendo mais baixa. Entretanto, 
+é graças a essas “perdas” que as redes são confiáveis.
+Continuando, 125 megabauds equivaleriam, a princípio, a uma freqüência de 125 MHz, o que ficaria acima dos 100 MHz suportados 
+pelos cabos categoria 5 e categoria 5e. Para evitar isso, foi adotado o sistema de codificação MLT-3, onde são utilizadas três 
+tensões diferentes (+1, 0 e -1) e os bits são transmitidos através de transições entre os níveis.
+No MLT-3, um bit 1 é transmitido chaveando para o próximo estágio de tensão, enquanto um bit 0 é transmitido mantendo o 
+mesmo estágio anterior. Por exemplo, para a sequência binária “1111” os sinais transmitidos seriam “+1, 0, -1, 0” e, para 
+a sequência “0101”, seria “+1, 0, 0, -1”:
+Esta sinalização mais simples permite “pegar carona” com o sinal de clock (que se comporta como uma onda), realizando 4 
+transferências por ciclo de clock. Isso reduz a freqüência real de 125 para apenas 31.25 MHz, de forma que a rede pode 
+funcionar tranquilamente dentro dos 100 MHz oferecidos pelos cabos de categoria 5.
+Em seguida temos o padrão de 100 megabits para cabos categoria 3, o 100BASE-T4, que elimina o modo full-duplex e utiliza 
+todos os quatro pares do cabo, reduzindo, assim, a taxa de sinalização.
+O 100BASE-T4 utiliza uma sinalização mais complexa onde um dos pares envia dados da estação para o hub, outro envia do hub 
+para a estação e os outros dois são alocados para uma direção ou outra, de acordo com quem está transmitindo, de forma que 
+apenas três dos pares são usados para transmitir dados simultaneamente.
+Como os cabos de categoria 3 suportam freqüências de até 16 MHz, mais de 6 vezes menos que os de categoria 5, foi necessário 
+criar um sistema complicado de codificação, que utiliza uma sinalização ternária, com o uso de três sinais diferentes 
+(em vez de dois, como no sistema binário). Com três combinações por par e três pares de cabo, temos um total de 27 combinações 
+possíveis por ciclo, suficiente para transmitir 4 bits (16 combinações), combinados com sinais adicionais de redundância.
+Este sistema, baseado no uso do 8B6T e da codificação PAM-3 permite reduzir a taxa de sinalização para apenas 25 megabauds. 
+Utilizando um sistema de sinalização similar ao usado no 100BASE-TX, são transmitidos 2 bauds em cada ciclo de clock, resultando 
+em uma freqüência efetiva de apenas 12.5 MHz, o que ainda está dentro do suportado pelos cabos de categoria 3. Apesar disso, 
+o 100BASE-T4 foi relativamente pouco usado, de forma que muitas placas de rede sequer oferecem suporte a ele, como no caso das 
+placas com apenas 4 pinos.
+Existiu ainda o 100BASE-FX, o padrão de 100 megabits para cabos de fibra óptica multimodo. Assim como o 10BASE-F, ele foi pouco usado, 
+mas oferecia a possibilidade de criar links de longa distância, com cabos de até 2 km e a possibilidade de usar repetidores para 
+atingir distâncias maiores.
+Existia a possibilidade de usar um único cabo de fibra em modo half-duplex, mas nesse caso a distância máxima era de apenas 
+400 metros (devido à necessidade de detectar colisões), o que eliminava a maior parte das vantagens práticas sobre o 100BASE-TX, 
+onde os 100 metros máximos podem ser estendidos com a ajuda de repetidores.
+Embora inicialmente fossem caras, as placas 100BASE-TX em versão PCI caíram assustadoramente de preço durante a vida útil do padrão. 
+As placas mais baratas, de fabricantes como a Encore e a LG, chegaram a ser vendidas no atacado, em países da Ásia, por menos de 3 dólares. 
+Isso aconteceu devido à concorrência acirrada entre os fabricantes e ao avanço das técnicas de fabricação, que tornou a fabricação dos c
+hipsets de rede cada vez mais barato.
+
+
+Placas de rede PCI
+Como todas as placas-mãe passaram a vir com placas de rede onboard, a demanda por placas offboard passou a ser cada vez menor, 
+o que gradualmente levou os fabricantes a produzir apenas placas de padrões mais recentes, que permitem a eles trabalhar com 
+margens de lucro um pouco maiores. Com isso, as placas de rede PCI baratas que nos acostumamos a ver começaram a se tornar cada 
+vez mais difíceis de encontrar, dando lugar às placas gigabit.
+
+Placas de rede PCI geralmente possuem um soquete para a instalação de um chip de boot, usado em clientes de boot remoto, 
+como no LTSP. É possível obter ROMs de boot em diversos formatos no http://rom-o-matic.org e gravá-las usando um gravador de EPROM,
+ mas isso está entrando em desuso, pois as placas-mãe incorporam imagens de boot no próprio BIOS, permitindo que a placa de rede 
+onboard seja usada para dar boot via rede diretamente.
+
+REDES ATM:
+
+Redes ATMO que é ?<br />ATM é uma tecnologia de comunicação de dados de alta velocidade usada para interligar redes locais, 
+metropolitanas e de longa distância para aplicações de dados, voz, áudio, e vídeo.<br />Basicamente a tecnologia ATM fornece 
+um meio para enviar informações em modo assíncrono através de uma rede de dados, dividindo essas informações em pacotes de 
+tamanho fixo denominados células (cells). Cada célula carrega um endereço que é usado pelos equipamentos da rede para determinar 
+o seu destino.<br />A tecnologia ATM utiliza o processo de comutação de pacotes, que é adequado para o envio assíncrono de 
+informações com diferentes requisitos de tempo e funcionalidades, aproveitando-se de sua confiabilidade, eficiência no uso de 
+banda e suporte a aplicações que requerem classes de qualidade de serviço diferenciadas
+
+REDES FDDI:
+
+A tecnologia LAN FDDI (Fiber Distributed Data Interface) é uma tecnologia de acesso a redes em linhas do tipo fibra óptica. 
+Na realidade, trata-se de um par de anéis. Um é considerado primário e o outro secundário, para recuperar os erros do primeiro. 
+O FDDI é, portanto, um anel com fichas para detecção e correção de erros. 
+A ficha circula entre as máquinas a uma velocidade muito alta. Se esta não chegar depois de um certo tempo, 
+a máquina considera que houve um erro na rede. 
+
+REDES TOKEN RING:
+
+Token ring é um protocolo de redes que opera na camada física e de enlace (ligação de dados) do modelo OSI dependendo da sua 
+aplicação. Usa um símbolo (em inglês, token), que consiste em uma trama de três bytes, que circula numa topologia em anel em 
+que as estações devem aguardar a sua recepção para transmitir. A transmissão dá-se durante uma pequena janela de tempo, 
+e apenas por quem detém o token.[1]
+Este protocolo foi descontinuado em detrimento de Ethernet e é utilizado atualmente apenas em infra-estruturas antigas.

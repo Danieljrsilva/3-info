@@ -1,0 +1,21 @@
+package livrariapoli;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Livro liv1 = new Livro("inferno", "ação", 10, 79.9f , 0f, "dan brown", "arqueiro", "7ª");
+		int qtd, op, op1;
+		float dolar;
+		do {
+			op = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite a opção desejada:\n1-livro\n2-cd" +
+					"\n3-dvd\n0-sair", "menu principal", 1));
+			switch(op) {
+			
+			}
+		}while(op != 0);
+
+	}
+
+}

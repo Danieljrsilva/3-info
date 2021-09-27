@@ -1,0 +1,33 @@
+.Meios de transmissão            
+->Par traçado                         
+->Cabo coaxial                                                                                                                                    
+->fibra ótica
+
+.Meios de transmissão sem fio
+->Radiodifusão
+->Infravermelho
+->Microondas
+->Ondas de luz
+
+                    Distancia        custo     segurança      velocidade        taxa erro     atenuação     capaci.     tecnolo      Larg         tipo
+                    curta            baixo       normal        baixa             alta           alta         baixa       baixa       banda        rede
+                                                                                                                                                  baixa 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Par traçado     baixa            baixa      normal         baixa             alta          alta          baixa      baixa        baixa        LAN                         
+                            
+					
+Cabo coaxial fino   normal	     baixa      normal         normal            alta          alta          baixa      baixa        baixa        LAN
+
+Cabo coaxial gross  normal           normal     normal         normal            normal        alta          normal     baixa        normal       LAN,MAN,WAN
+
+categoria 5         baixa            baixa      normal         normal            normal        alta          baixa      baixa        normal       LAN,MAN,WAN
+
+categoria 6         normal           normal     normal         normal            baixa         normal        normal     normal       normal       LAN,MAN
+
+categoria 7         normal           alta       normal         alta              baixa         normal        alta       normal       normal       LAN,MAN
+
+fibra optica        alta             alta       normal         alta              baixa         baixa         alta       alta         alta         LAN,MAN,WAN
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             
+			                                                                                                                                                                             

@@ -1,0 +1,26 @@
+package livrariapoli;
+
+public class Livro extends Produto {
+
+	public Livro() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Livro(String descricao, String genero, int estoque, float custo, float venda) {
+		super(descricao, genero, estoque, custo, venda);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void Listar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void Calcular() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

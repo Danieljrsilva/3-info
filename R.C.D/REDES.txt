@@ -1,0 +1,11 @@
+tipos e topologias de redes
+conceitos
+utilização
+vantagens
+desvantagens
+
+LAN
+PAN
+MAN
+RAM
+WAN

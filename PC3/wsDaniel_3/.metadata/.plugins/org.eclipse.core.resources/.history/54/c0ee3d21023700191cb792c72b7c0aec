@@ -1,0 +1,29 @@
+import javax.swing.JOptionPane;
+
+public class calculando {
+
+	public static void main(String[] args) {
+		int n1, n2, n3, n4, n5, n6, n7, n8, n9;
+		int resultado,soma ;
+		
+		
+		
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n1 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n2 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n3 : "));	
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n4 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n5 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n6 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n7 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n8 : "));
+		Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o primeiro n9 : "));
+		 
+		 
+		 
+		 
+		 JOptionPane.showInputDialog(null, "A soma do seu cpf é ");		
+		 	
+		 
+	}
+
+}

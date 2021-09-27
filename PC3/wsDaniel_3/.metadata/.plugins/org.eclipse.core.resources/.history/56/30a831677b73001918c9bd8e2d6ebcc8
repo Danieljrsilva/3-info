@@ -1,0 +1,48 @@
+package livrariapoli;
+
+import javax.swing.JOptionPane;
+
+public class Principal {//1
+
+	public static void main(String[] args) {//2
+		Livro liv1 = new Livro("inferno", "ação", 10, 79.9f , 0f, "dan brown", "arqueiro", "7ª");
+		int qtd, op, op1;
+		float dolar;
+		do {//3
+			op = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite a opção desejada:\n1-livro\n2-cd" +
+					"\n3-dvd\n0-sair", "menu principal", 1));
+			switch(op) {//4
+			case 1://inicio do livro
+				do {//5
+					op1 = Integer.parseInt(JOptionPane.showInputDialog(null, "digite a opção desejada:\n1-"
+							+ "Listar\n2-comprar\n3-vender\n4-Calcular"
+							+ "\n0-voltar", "LIVRO" , 1));
+					switch(op1) {//6
+					case 1:
+						liv1.Listar();
+						break;
+					case 2:
+						qtd = Integer.parseInt(JOptionPane.showInputDialog("digite a quantidade comprada"));
+						liv1.Comprar(qtd);
+						break;
+					case 3:
+						qtd = Integer.parseInt(JOptionPane.showInputDialog("digite a quantidade vendida"));
+						liv1.Vender(qtd);
+						break;
+					case 4:
+						liv1.Calcular();
+						break;
+					case 0:
+						break;
+					default:
+						JOptionPane.showMessageDialog(null, "opção invalida");
+						break;
+					}//6
+				}while(op1 != 0);//5
+			break;
+			}//4
+		}while(op != 0);//3
+
+	}//2
+
+}//1
